@@ -1,0 +1,28 @@
+[CreateDialog]
+LastMimeType=application/zip
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Forrit/Freejoy/fj.png
+Recent URLs[$e]=file:$HOME/Forrit/Freejoy/
+
+[Open-with settings]
+CompletionMode=1
+History=/bin/ark,org.kde.kwrite,kompa
+LastChoice=org.kde.kwrite
+
+[SettingsDialog]
+2 screens: Height=487
+2 screens: Width=668
+3 screens: Height=786
+3 screens: Width=1080
+4 screens: Height=507
+4 screens: Width=762
+
+[State]
+2 screens: Height=817
+2 screens: Width=1465
+3 screens: Height=970
+3 screens: Width=1646
+4 screens: Height=889
+4 screens: Width=1646
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADRAAADA/wCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAuAAAAlgAAAAAA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAuAAADAwAAAFMA////AAAAAQAAALoAAAMD/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAAC4AAAMDAAABAgD///8AAAADAAAFuQAAAdr8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAFuQAAAAAA////AAAELAAAAwMAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=

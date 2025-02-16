@@ -1,0 +1,60 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display,dolphin_directorysizemode.upd:convert-directorysizecount-to-directorysizemode
+
+[ContentDisplay]
+UsePermissionsFormat=CombinedFormat
+UseShortRelativeDates=false
+
+[ContextMenu]
+ShowCopyToOtherSplitView=false
+ShowDuplicateHere=false
+ShowMoveToOtherSplitView=false
+
+[DetailsMode]
+PreviewSize=32
+
+[FileDialogSize]
+3 screens: Height=540
+3 screens: Width=960
+4 screens: Height=540
+4 screens: Width=960
+
+[General]
+GlobalViewProps=false
+HideXTrashFile=true
+ShowToolTips=true
+Version=202
+ViewPropsTimestamp=2024,7,27,13,28,41.727
+
+[IconsMode]
+IconSize=64
+PreviewSize=112
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=32
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[PlacesPanel]
+IconSize=32
+
+[PreviewSettings]
+Plugins=ffmpegthumbnailer,appimagethumbnail,audiothumbnail,avif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,exe-thumbnailer,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,heif,imagethumbnail,jpegthumbnail,jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs,gdk-pixbuf-thumbnailer,gsf-office
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[VersionControl]
+enabledPlugins=Git
+
+[ViewPropertiesDialog]
+3 screens: Height=584
+3 screens: Width=379

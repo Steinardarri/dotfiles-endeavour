@@ -1,0 +1,11 @@
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/.local/share/applications/PitSync.desktop
+Recent URLs[$e]=file:$HOME/Documents/,file:///run/media/steinardth/Hardur_Diskur/.torrent/Star.Wars.The.Bad.Batch.TV.Film.Cuts.COMPLETE.SERIES.x265.HDR.2160p-NumeralJ/,file:///etc/pacman.d/hooks/,file:///usr/local/bin/,file:///etc/,file:///run/media/steinardth/SSD_M2/SteamLibrary/steamapps/compatdata/393380/pfx/drive_c/users/steamuser/AppData/Local/SquadGame/Saved/Config/WindowsNoEditor/,file:$HOME/,file:///run/media/steinardth/SSD_M2/,file:$HOME/Forrit/,file:$HOME/.local/share/applications/
+
+[MainWindow]
+2 screens: Window-Maximized=true
+3 screens: Height=1052
+3 screens: Width=1280
+3 screens: Window-Maximized=true
+4 screens: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPSAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAIK/////wAAAAAAAAAA

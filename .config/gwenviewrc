@@ -1,0 +1,31 @@
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Screenshot_20241109_174416.png
+File10[$e]=$HOME/Downloads/image001.gif
+File2[$e]=/run/media/steinardth/SteinarFlak/Backup/_Annad/Home/Documents/BFBC2/Screenshots/ScreenshotWin32-0001.tga
+File3[$e]=$HOME/Downloads/floorp.png
+File4[$e]=/usr/share/icons/hicolor/32x32/apps/floorp.png
+File5[$e]=/usr/share/icons/hicolor/128x128/apps/floorp.png
+File6[$e]=/usr/share/icons/hicolor/128x128/apps/goverlay.png
+File7[$e]=$HOME/Downloads/vtjjlv7a5oasmh95mxs77l.jpg
+File8[$e]=/run/media/steinardth/Hardur_Diskur/Recording/clips/clip_379430_20250118_063611/thumbnail.jpg
+File9[$e]=$HOME/Downloads/Screenshot 2025-01-12 at 23-19-04 Hologram Microcosm Make anything sound cinematic - YouTube.png
+Name1[$e]=Screenshot_20241109_174416.png
+Name10[$e]=image001.gif
+Name2[$e]=ScreenshotWin32-0001.tga
+Name3[$e]=floorp.png
+Name4[$e]=floorp.png
+Name5[$e]=floorp.png
+Name6[$e]=goverlay.png
+Name7[$e]=vtjjlv7a5oasmh95mxs77l.jpg
+Name8[$e]=thumbnail.jpg
+Name9[$e]=Screenshot 2025-01-12 at 23-19-04 Hologram Microcosm Make anything sound cinematic - YouTube.png
+
+[SideBar]
+InformationSplitterSizes=211,244

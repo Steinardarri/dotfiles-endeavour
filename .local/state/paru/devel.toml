@@ -1,0 +1,48 @@
+[[carla-git]]
+url = "https://github.com/falkTX/Carla.git"
+commit = "17000e7fe99459b25a50094a8b00bdfa12f2bfbc"
+
+[[evtest-qt-git]]
+url = "https://github.com/Grumbel/evtest-qt.git"
+commit = "6fb1b845ea3b9963bced1847f76c45d85a47beec"
+
+[[gamescope-plus]]
+url = "https://github.com/Joshua-Ashton/reshade.git"
+commit = "4245743a8c41abbe3dc73980c1810fe449359bf1"
+
+[[gamescope-plus]]
+url = "https://github.com/Joshua-Ashton/wlroots.git"
+commit = "2edf468aeb7d4703aa211cea3b58f04cbc73298c"
+
+[[gamescope-plus]]
+url = "https://github.com/KhronosGroup/SPIRV-Headers.git"
+commit = "09913f088a1197aba4aefd300a876b2ebbaa3391"
+
+[[gamescope-plus]]
+url = "https://github.com/ValveSoftware/openvr.git"
+commit = "ae46a8dd0172580648c8922658a100439115d3eb"
+
+[[gamescope-plus]]
+url = "https://gitlab.freedesktop.org/emersion/libdisplay-info.git"
+commit = "211fa636a3c49da81bcedc115457a003f28f9a58"
+
+[[gamescope-plus]]
+url = "https://gitlab.freedesktop.org/emersion/libliftoff.git"
+commit = "d84c37ac7637f14c8281a6a0f2b5b0cbe69341df"
+
+[[protopedal-git]]
+url = "https://gitlab.com/openirseny/protopedal"
+commit = "85b0848a969a800fc22506cbd284f6eefeb247d9"
+
+[[tinycmmc-git]]
+url = "https://github.com/grumbel/tinycmmc"
+commit = "9a51e13802d930feb7261ba8876940659b258cb7"
+
+[[universal-pidff-dkms-git]]
+url = "https://github.com/JacKeTUs/universal-pidff"
+commit = "b1785f9ab4b7f43b8e886734b346b994933a3f72"
+
+[[zrythm-git]]
+url = "https://gitlab.zrythm.org/zrythm/zrythm/"
+branch = "v1"
+commit = "8b3de78812010e9ca6585848bdd1e15cee61e4c5"

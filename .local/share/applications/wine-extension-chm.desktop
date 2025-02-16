@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=hh
+MimeType=application/vnd.ms-htmlhelp;
+Exec=env WINEPREFIX="/run/media/steinardth/SSD_M2/SteamLibrary/steamapps/compatdata/805550/pfx" wine start /ProgIDOpen chm.file %f
+NoDisplay=true
+StartupNotify=true
+Icon=D15F_hh.0

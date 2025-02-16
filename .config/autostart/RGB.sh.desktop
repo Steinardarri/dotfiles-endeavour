@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/steinardth/Forrit/Script/RGB.sh
+Icon=application-x-shellscript
+Name=RGB.sh
+Type=Application
+X-KDE-AutostartScript=true

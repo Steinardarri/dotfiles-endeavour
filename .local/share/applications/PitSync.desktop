@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=PitSync
+Exec=protontricks-launch --appid 805550 "PitSync.exe" "signin;" "%u"
+Type=Application
+Terminal=true
+MimeType=x-scheme-handler/pitsync;
+Path=/run/media/steinardth/SSD_M2/SteamLibrary/steamapps/compatdata/805550/pfx/drive_c/Program Files/The Pit Crew/PitSync/

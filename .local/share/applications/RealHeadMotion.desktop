@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=Game;
+Exec=protontricks-launch --appid 805550 "./RealHeadMotionAssettoCorsaCompetizione.exe"
+GenericName=
+Icon=car
+MimeType=
+Name=RealHeadMotionACC
+Path=/run/media/steinardth/SSD_M2/SteamLibrary/steamapps/common/Assetto Corsa Competizione/RHM/
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+StartupWMClass=RealHeadMotionAssettoCorsaCompetizione.exe

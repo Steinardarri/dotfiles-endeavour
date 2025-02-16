@@ -1,0 +1,8 @@
+
+[Desktop Entry]
+Type=Application
+Name=Hell Let Loose
+Icon=lutris_hell-let-loose
+Exec=env LUTRIS_SKIP_INIT=1 lutris lutris:rungameid/27
+Categories=Game
+TryExec=lutris

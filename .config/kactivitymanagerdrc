@@ -1,0 +1,13 @@
+[Plugins]
+org.kde.ActivityManager.ResourceScoringEnabled=false
+
+[activities]
+d0ce5f89-392a-419a-ae53-5e1864bb8326=Default
+
+[activities-icons]
+d0ce5f89-392a-419a-ae53-5e1864bb8326=/home/steinardth/Pictures/vanguard.png
+
+[main]
+currentActivity=d0ce5f89-392a-419a-ae53-5e1864bb8326
+runningActivities=d0ce5f89-392a-419a-ae53-5e1864bb8326
+stoppedActivities=

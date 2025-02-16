@@ -1,0 +1,37 @@
+[Document 0]
+URL=file:///home/steinardth/.config/starship.toml
+
+[MainWindow0]
+ToolBarsMovable=Disabled
+
+[MainWindow0 Settings]
+ToolBarsMovable=Disabled
+WindowState=10
+
+[Open Documents]
+Count=1
+
+[Open MainWindows]
+Count=1
+
+[Recent Files]
+File1[$e]=$HOME/.local/bin/url2app.sh
+File10[$e]=$HOME/.config/starship.toml
+File2[$e]=$HOME/.local/share/applications/userapp-Firefox-0HFU12.desktop
+File3[$e]=$HOME/.local/share/applications/userapp-Floorp-NPMLR2.desktop
+File4[$e]=$HOME/.local/share/applications/PitSync.desktop
+File5[$e]=$HOME/.config/mimeapps.list
+File6[$e]=$HOME/.local/share/applications/TrackTitan.desktop
+File7[$e]=$HOME/.config/spicetify/config-xpui.ini
+File8[$e]=/var/lib/dkms/xone-v0.3-90/gf314bce/build/make.log
+File9[$e]=$HOME/Forrit/Script/ACC.sh
+Name1[$e]=url2app.sh
+Name10[$e]=starship.toml
+Name2[$e]=userapp-Firefox-0HFU12.desktop
+Name3[$e]=userapp-Floorp-NPMLR2.desktop
+Name4[$e]=PitSync.desktop
+Name5[$e]=mimeapps.list
+Name6[$e]=TrackTitan.desktop
+Name7[$e]=config-xpui.ini
+Name8[$e]=make.log
+Name9[$e]=ACC.sh

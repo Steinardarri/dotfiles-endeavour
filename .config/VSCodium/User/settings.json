@@ -1,0 +1,157 @@
+{
+  "[awk]": {
+    "editor.defaultFormatter": "beaglefoot.awk-ide-vscode",
+    "editor.semanticHighlighting.enabled": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "mkhl.shfmt"
+  },
+  "color-highlight.markerType": "outline",
+  "continue.telemetryEnabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.maxComputationTime": 0,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'Hack Nerd Font', 'Hack', monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.showSlider": "always",
+  "editor.quickSuggestions.strings": "on",
+  "editor.semanticTokenColorCustomizations.enabled": true,
+  "editor.tabCompletion": "onlySnippets",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 160,
+  "editor.wrappingIndent": "deepIndent",
+  "errorLens.codeLensEnabled": true,
+  "errorLens.gutterIconSet": "emoji",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.messageMaxChars": 0,
+  "evenBetterToml.formatter.alignComments": true,
+  "evenBetterToml.formatter.alignEntries": true,
+  "evenBetterToml.formatter.allowedBlankLines": 2,
+  "evenBetterToml.formatter.arrayAutoCollapse": true,
+  "evenBetterToml.formatter.arrayAutoExpand": true,
+  "evenBetterToml.formatter.arrayTrailingComma": true,
+  "evenBetterToml.formatter.columnWidth": 80,
+  "evenBetterToml.formatter.compactArrays": false,
+  "evenBetterToml.formatter.indentEntries": true,
+  "evenBetterToml.formatter.indentString": "  ",
+  "evenBetterToml.formatter.reorderArrays": true,
+  "evenBetterToml.formatter.trailingNewline": true,
+  "explorer.compactFolders": false,
+  "extensions.autoCheckUpdates": false,
+  "files.associations": {
+    "PKGBUILD": "aur-pkgbuild"
+  },
+  "files.autoSave": "afterDelay",
+  "files.encoding": "utf8",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git-graph.repository.commits.fetchAvatars": true,
+  "git-graph.repository.commits.showSignatureStatus": false,
+  "git-graph.repository.sign.commits": false,
+  "git-graph.repository.sign.tags": false,
+  "git.allowForcePush": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.defaultBranchName": "master",
+  "git.defaultCloneDirectory": "~/Verkefni",
+  "git.enableCommitSigning": false,
+  "git.enableSmartCommit": true,
+  "git.fetchOnPull": true,
+  "git.openAfterClone": "alwaysNewWindow",
+  "git.openRepositoryInParentFolders": "never",
+  "git.pruneOnFetch": true,
+  "git.pullBeforeCheckout": true,
+  "git.rebaseWhenSync": true,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.plusFeatures.enabled": false,
+  "gitlens.showWelcomeOnInstall": false,
+  "gitmoji.addCustomEmoji": [
+    {
+      "code": ":package: NEW:",
+      "description": "... Add new code/feature",
+      "emoji": "📦 NEW:"
+    },
+    {
+      "code": ":ok_hand: IMPROVE:",
+      "description": "... Improve existing code/feature",
+      "emoji": "👌 IMPROVE:"
+    },
+    {
+      "code": ":x: REMOVE:",
+      "description": "... Remove existing code/feature",
+      "emoji": "❌ REMOVE:"
+    },
+    {
+      "code": ":bug: FIX:",
+      "description": "... Fix a bug",
+      "emoji": "🐛 FIX:"
+    },
+    {
+      "code": ":wrench: MAINT:",
+      "description": "... Maintain dependencies and code",
+      "emoji": "🔧 MAINT:"
+    },
+    {
+      "code": ":bookmark_tabs: DOC:",
+      "description": "... Anything related to documentation",
+      "emoji": "📑 DOC:"
+    },
+    {
+      "code": ":robot: TEST:",
+      "description": "... Anything realted to tests",
+      "emoji": "🤖 TEST:"
+    }
+  ],
+  "gitmoji.onlyUseCustomEmoji": true,
+  "nix.enableLanguageServer": false,
+  "nix.serverPath": "nixd",
+  "ruff.nativeServer": "on",
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.persistentSessionScrollback": 5000,
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "/usr/bin/zsh",
+      "icon": "zap"
+    }
+  },
+  "terminal.integrated.scrollback": 50000,
+  "terminal.integrated.smoothScrolling": true,
+  "update.mode": "none",
+  "update.showReleaseNotes": false,
+  "window.customTitleBarVisibility": "auto",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1,
+  "workbench.cloudChanges.autoResume": "off",
+  "workbench.cloudChanges.continueOn": "off",
+  "workbench.colorCustomizations.editorInlayHint.typeBackground": "#2F3542",
+  "workbench.colorTheme": "GapStyle VS",
+  "workbench.enableExperiments": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.startupEditor": "none",
+  "continue.enableTabAutocomplete": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "[qml]": {
+    "editor.defaultFormatter": "Delgan.qml-format"
+  }
+}

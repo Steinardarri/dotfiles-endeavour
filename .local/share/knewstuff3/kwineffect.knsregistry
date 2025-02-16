@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="719">
+  <name>Glitch [Burn-My-Windows]</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>schneegans</author>
+  <homepage>https://store.kde.org/p/2133844</homepage>
+  <licence></licence>
+  <version>44</version>
+  <rating>50</rating>
+  <downloads>2366</downloads>
+  <installedfile>/home/steinardth/dotfiles/.local/share/kwin/effects/kwin6_effect_glitch/</installedfile>
+  <id>2133844</id>
+  <releasedate>2024-11-06</releasedate>
+  <summary>&lt;p>This is the KWin port of the Glitch effect of the Burn-My-Windows GNOME Shell extension. &lt;a href="https://github.com/Schneegans/Burn-My-Windows#%EF%B8%8F-installation-kwin">You can find a list of all Burn-My-Windows effects which are currently available for KWin on GitHub.&lt;/a>&lt;/p>
+
+&lt;p>&lt;b>This effect requires at least KWin 6.0.0. Also, if the color picker widgets in the settings of any of the Burn-My-Windows effects do not work, you may have to install the package "libkf6widgetsaddons-dev" (Kubuntu, KDE Neon, etc) or "kf6-kwidgetaddons-devel" (Fedora, OpenSuse, etc).&lt;/b> If you encounter a bug or have a feature request, please open an issue on &lt;a href="https://github.com/Schneegans/Burn-My-Windows/issues">GitHub&lt;/a>!&lt;/p>
+
+&lt;p>&lt;i>IMHO, there are many things which could be done to improve the KWin port of the extension. However, since I am not using KDE as a daily driver, I would appreciate it very much if someone volunteers to work on this port! I am happily receiving pull requests...&lt;/i>&lt;/p>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/67/07/53/2133844/glitch.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/67/07/53/2133844/glitch.gif</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTczMDkwNTg5OSwibyI6IjEiLCJzIjoiMWQ0Y2ZkMThhNzE1NGZlODIxMmM4ZDQyODcyYWJlMmRjZDNhNWI4ZWJlOWRiYzU2ZjU5NjZjZTFlNGE1ODJmMjZjNTJiYWIwZDJkMjhiYzE3YmQ3NzRlOTY2YTE2YzY4NjcyOWRmNTEzNjA1OTJiZTRiODEzMDFlZDFjMDdkMDEiLCJ0IjoxNzM5NjMxNzgyLCJzdGZwIjpudWxsLCJzdGlwIjoiNDYuMjIuOTguOTUifQ.f4neJLLLZ7sL3YsfEtTaWxBcXP1R6FG2PRk5A2zjDL8/kwin6-effect-glitch.tar.gz</payload>
+  <tags>original-product,animation,unix,gplv3,linux</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

@@ -1,0 +1,55 @@
+{
+  "language": "en",
+  "downloadsFolder": "/run/media/steinardth/SSD/LLM_Models",
+  "sidebar": {
+    "showButtonNames": false
+  },
+  "configs": {
+    "expandConfigsOnClick": true
+  },
+  "chat": {
+    "showSuggestionsOnNewChat": false,
+    "alwaysShowPromptTemplate": false,
+    "useShiftEnterToSendMessage": false,
+    "useKeychordToRegenerate": true,
+    "unloadPreviousModelOnSelect": true,
+    "highlightChatMessageOnHover": true,
+    "doubleClickMessageToEdit": true,
+    "aiNamingMode": "auto",
+    "autoExpandReasoningBlocks": false
+  },
+  "developer": {
+    "showExperimentalFeatures": false,
+    "experimentalLoadPresets": false,
+    "showDebugInfoBlocksInChat": false,
+    "showModelDownloadOptionData": false,
+    "backendDownloadChannel": "beta",
+    "appUpdateChannel": "stable",
+    "allowDevelopmentPlugins": true,
+    "unloadPreviousJITModelOnLoad": true,
+    "autoUpdateExtensionPacks": true,
+    "separateReasoningContent": false
+  },
+  "ui": {
+    "missionControlFullscreen": false,
+    "showModelFileNameInMyModels": false
+  },
+  "toggledConfigDropdowns": [],
+  "userInterfaceComplexityLevel": 1,
+  "appFirstLoad": false,
+  "autoLoadBundledLLM": true,
+  "modelLoadingGuardrails": {
+    "mode": "high",
+    "customThresholdBytes": 4294967296
+  },
+  "dismissedModals": [
+    "Tool Use Onboarding",
+    "Quick Docs Popover"
+  ],
+  "pre030ChatsMigrated": 3,
+  "appPostUpdateNotificationPending": false,
+  "promptWhenCommittingUnsavedChangesWithNewFields": false,
+  "enableLocalService": false,
+  "cliInstalled": false,
+  "useHFProxy": false
+}

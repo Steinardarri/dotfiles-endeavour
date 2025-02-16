@@ -1,0 +1,7 @@
+[Applets][3]
+immutability=1
+plugin=com.github.Steinardarri.compact_activity_pager
+
+[Applets][3][Configuration]
+PreloadWeight=26
+geometry=1920,360,803,570

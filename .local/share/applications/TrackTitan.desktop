@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=TrackTitan
+Exec=protontricks-launch --appid 805550 "TrackTitanDesktopApplication.exe" "%u" --disable-gpu-sandbox
+Type=Application
+Terminal=true
+MimeType=x-scheme-handler/tracktitan-app;
+Path=/run/media/steinardth/SSD_M2/SteamLibrary/steamapps/compatdata/805550/pfx/drive_c/users/steamuser/AppData/Local/Programs/track-titan-ghost-application/
