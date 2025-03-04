@@ -6,8 +6,8 @@ DefaultProfile=Minn.profile
 [General]
 ConfigVersion=1
 
-[MainWindow]
-ToolBarsMovable=Disabled
+[KonsoleWindow]
+UseSingleInstance=true
 
 [TabBar]
 CloseTabOnMiddleMouseButton=true

@@ -3,6 +3,3 @@
 3 screens: Width=1184
 4 screens: Height=540
 4 screens: Width=960
-
-[MainWindow]
-ToolBarsMovable=Disabled

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Ableton Live 12 Lite
-Exec=env WINEPREFIX="/home/steinardth/.wine" wine C:\\\\users\\\\steinardth\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Ableton\\ Live\\ 12\\ Lite.lnk
-Type=Application
-StartupNotify=true
-Comment=Ableton Live 12 Lite
-Icon=7D21_Ableton Live 12 Lite.0
-StartupWMClass=ableton live 12 lite.exe

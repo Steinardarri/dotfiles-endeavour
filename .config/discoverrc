@@ -2,7 +2,7 @@
 installedPageSorting=263
 
 [FlatpakSources]
-Sources=flathub
+Sources=flathub,flathub
 
 [Window]
 geometry=4480,360,1861,1185

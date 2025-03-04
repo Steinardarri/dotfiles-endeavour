@@ -5,12 +5,12 @@
                 "allowSdrSoftwareBrightness": false,
                 "autoRotation": "InTabletMode",
                 "brightness": 1,
-                "colorPowerTradeoff": "PreferEfficiency",
+                "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "EDID",
                 "connectorName": "DP-1",
                 "edidHash": "d8afb3fa5cdb98feeec4d2d342b1467e",
                 "edidIdentifier": "SAM 28794 810178353 4 2022 0",
-                "highDynamicRange": false,
+                "highDynamicRange": true,
                 "iccProfilePath": "",
                 "mode": {
                     "height": 1440,
@@ -20,11 +20,11 @@
                 "overscan": 0,
                 "rgbRange": "Automatic",
                 "scale": 1,
-                "sdrBrightness": 200,
-                "sdrGamutWideness": 0,
+                "sdrBrightness": 500,
+                "sdrGamutWideness": 0.1,
                 "transform": "Normal",
-                "vrrPolicy": "Automatic",
-                "wideColorGamut": false
+                "vrrPolicy": "Never",
+                "wideColorGamut": true
             },
             {
                 "autoRotation": "InTabletMode",
@@ -110,9 +110,9 @@
                 "rgbRange": "Automatic",
                 "scale": 1,
                 "sdrBrightness": 200,
-                "sdrGamutWideness": 0,
+                "sdrGamutWideness": 0.3,
                 "transform": "Normal",
-                "vrrPolicy": "Automatic",
+                "vrrPolicy": "Never",
                 "wideColorGamut": false
             },
             {
@@ -504,6 +504,20 @@
                     {
                         "enabled": true,
                         "outputIndex": 4,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
                         "position": {
                             "x": 0,
                             "y": 0

@@ -1,5 +1,7 @@
-[General]
-SplitterSizes=468,637
+[FileDialogSize]
+2 screens: Height=720
+2 screens: Width=1280
 
-[MainWindow]
-ToolBarsMovable=Disabled
+[General]
+ShowHidden=false
+SplitterSizes=448,610

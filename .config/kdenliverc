@@ -1,5 +1,6 @@
-[MainWindow]
-ToolBarsMovable=Disabled
+[FileDialogSize]
+2 screens: Height=720
+2 screens: Width=1280
 
 [Media Browser]
 Allow Expansion=false
@@ -17,6 +18,9 @@ zoom=7
 
 [Recent Dirs]
 KdenliveClipFolder[$e]=$HOME/Videos,$HOME/Documents
+
+[RenderWidget]
+showoptions=true
 
 [Scope_Histogram]
 autoRefresh=true
@@ -57,7 +61,7 @@ rec601=false
 ColorSchemePath=BreezeDark.colors
 
 [bin]
-treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAJ/gEAAAAIAAAABgAAADEAAAADAAAAOQAAAAcAAAA0AAAAAQAAADkAAAAIAAAAZAAAAAIAAABlAAAABQAAAFQAAAAEAAAAMQAAAfQAAAAJAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAJAAAB9AAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAABBAAAAAA==
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAJ/gEAAAAIAAAABgAAADEAAAADAAAAOQAAAAcAAAA0AAAAAQAAADkAAAAIAAAAZAAAAAIAAABlAAAABQAAAFQAAAAEAAAAMQAAAW4AAAAJAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAJAAABbgAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAABBAAAAAA==
 
 [capture]
 decklink_extension=mov
@@ -74,13 +78,15 @@ ffmpegpath[$e]=/usr/bin/ffmpeg
 ffplaypath[$e]=/usr/bin/ffplay
 ffprobepath[$e]=/usr/bin/ffprobe
 kdenliverendererpath[$e]=/usr/bin/kdenlive_render
-lastCacheCheck=2024,12,21,21,24,29.43
+lastCacheCheck=2025,2,18,21,30,17.164
 mediainfopath[$e]=/usr/bin/mediainfo
 meltpath[$e]=/usr/bin/melt-7
 mltpath[$e]=/usr/share/mlt-7/profiles
 
 [project]
 SupportedHWCodecs=h264_vaapi,hevc_vaapi
+parallelrender=true
+transcodeFriendly=Lossy x264 I frame only (VAAPI GPU)
 
 [timeline]
 trackheight=62
@@ -88,9 +94,11 @@ trackheight=62
 [unmanaged]
 consumerslist=qglsl,xml,jack,blipflash,decklink,multi,null,cbrts,sdl,sdl_audio,sdl_preview,sdl_still,sdl2,sdl2_audio,avformat
 default_profile=atsc_1080p_25
+defaultrescaleheight=720
+defaultrescalewidth=1280
 guidesCategories=Category 1:0:#9b59b6,Category 2:1:#3daee9,Category 3:2:#1abc9c,Category 4:3:#1cdc9a,Category 5:4:#c9ce3b,Category 6:5:#fdbc4b,Category 7:6:#f39c1f,Category 8:7:#f47750,Category 9:8:#da4453
 monitor_audio=false
-producerslist=pango,pixbuf,qimage,qtext,kdenlivetitle,framebuffer,xml,xml-string,xml-nogl,ladspa.1047,ladspa.1050,blipflash,count,pgm,subtitle,decklink,abnormal,blank,color,colour,consumer,hold,loader,loader-nogl,melt,melt_file,noise,timewarp,tone,vorbis,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,avformat,avformat-novalidate,glaxnimate
+producerslist=pango,pixbuf,qimage,qtext,kdenlivetitle,framebuffer,xml,xml-string,xml-nogl,xml-clip,ladspa.1047,ladspa.1050,vst2.1449751649,blipflash,count,pgm,subtitle,decklink,abnormal,blank,color,colour,consumer,hold,loader,loader-nogl,melt,melt_file,noise,timewarp,tone,vorbis,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,avformat,avformat-novalidate,glaxnimate
 
 [version]
-version=24.12.0
+version=24.12.2

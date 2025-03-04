@@ -1,10 +1,10 @@
 [applications]
-1\value=@Variant(\0\0\0\x7f\0\0\0\x15NotifyingApplication\0\xff\xff\xff\xff\xff\xff\xff\xff\0\xff\xff\xff\xff)
-2\value=@Variant(\0\0\0\x7f\0\0\0\x15NotifyingApplication\0\0\0\0\xe\0S\0p\0o\0t\0i\0\x66\0y\0\0\0\0\x1\xff\xff\xff\xff)
-3\value=@Invalid()
-4\value=@Invalid()
+1\value=@Variant(\0\0\0\x7f\0\0\0\x15NotifyingApplication\0\0\0\0\x10\0\x44\0i\0s\0\x63\0o\0v\0\x65\0r\0\0\0\x14\0u\0p\0\x64\0\x61\0t\0\x65\0-\0l\0o\0w\x1\xff\xff\xff\xff)
+2\value=@Variant(\0\0\0\x7f\0\0\0\x15NotifyingApplication\0\xff\xff\xff\xff\xff\xff\xff\xff\0\xff\xff\xff\xff)
+3\value=@Variant(\0\0\0\x7f\0\0\0\x15NotifyingApplication\0\0\0\0\x16\0n\0o\0t\0i\0\x66\0y\0-\0s\0\x65\0n\0\x64\0\0\0\0\x1\xff\xff\xff\xff)
+4\value=@Variant(\0\0\0\x7f\0\0\0\x15NotifyingApplication\0\0\0\0\xe\0S\0p\0o\0t\0i\0\x66\0y\0\0\0\0\x1\xff\xff\xff\xff)
 5\value=@Invalid()
 6\value=@Invalid()
 7\value=@Invalid()
 8\value=@Invalid()
-size=2
+size=4

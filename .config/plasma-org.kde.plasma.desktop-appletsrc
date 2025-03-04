@@ -123,7 +123,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][10][Applets][25][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][10][Applets][25][Configuration][ConfigDialog]
 DialogHeight=540
@@ -134,7 +134,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][10][Applets][26][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][10][Applets][26][Configuration][General]
 showPercentage=true
@@ -162,7 +162,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][10][Applets][35][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][10][Applets][35][Configuration][Appearance]
 showPressureInTooltip=true
@@ -187,7 +187,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][10][Applets][46][Configuration]
-PreloadWeight=58
+PreloadWeight=50
 
 [Containments][10][ConfigDialog]
 DialogHeight=540
@@ -247,7 +247,7 @@ immutability=1
 plugin=com.github.tilorenz.compact_pager
 
 [Containments][30][Applets][58][Configuration]
-PreloadWeight=65
+PreloadWeight=75
 popupHeight=400
 popupWidth=1210
 
@@ -353,7 +353,7 @@ immutability=1
 plugin=com.github.tilorenz.compact_pager
 
 [Containments][4][Applets][54][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 popupHeight=400
 popupWidth=1210
 
@@ -446,6 +446,8 @@ Image=/home/steinardth/Pictures/Vagabond.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][49]
+ItemGeometries-1536x864=
+ItemGeometries-1745x982=
 ItemGeometries-1920x1080=
 ItemGeometries-2560x1440=
 ItemGeometriesHorizontal=

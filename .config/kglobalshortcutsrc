@@ -267,6 +267,15 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
+[services][Arma 3.desktop]
+_launch=
+
+[services][Balatro.desktop]
+_launch=
+
+[services][Google Earth VR.desktop]
+_launch=
+
 [services][octopi.desktop]
 _launch=Meta+O
 

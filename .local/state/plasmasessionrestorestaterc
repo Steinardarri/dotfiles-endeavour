@@ -1,14 +1,11 @@
 [0]
-appId=vesktop.desktop
+appId=org.kde.konsole.desktop
 
 [1]
-appId=org.kde.dolphin.desktop
-
-[2]
-appId=octopi.desktop
-
-[3]
 appId=spotify.desktop
 
-[4]
-appId=org.kde.konsole.desktop
+[2]
+appId=vesktop.desktop
+
+[3]
+appId=org.kde.dolphin.desktop

@@ -16,7 +16,9 @@
     "highlightChatMessageOnHover": true,
     "doubleClickMessageToEdit": true,
     "aiNamingMode": "auto",
-    "autoExpandReasoningBlocks": false
+    "autoExpandReasoningBlocks": false,
+    "visualizeSpeculativeDecoding": false,
+    "chatFullWidth": false
   },
   "developer": {
     "showExperimentalFeatures": false,
@@ -27,12 +29,20 @@
     "appUpdateChannel": "stable",
     "allowDevelopmentPlugins": true,
     "unloadPreviousJITModelOnLoad": true,
+    "jitModelTTL": {
+      "enabled": true,
+      "ttlSeconds": 3600
+    },
     "autoUpdateExtensionPacks": true,
     "separateReasoningContent": false
   },
   "ui": {
     "missionControlFullscreen": false,
-    "showModelFileNameInMyModels": false
+    "showModelFileNameInMyModels": false,
+    "configureLoadParamsBeforeLoad": true
+  },
+  "configPresetInclusiveness": {
+    "speculativeDecoding": false
   },
   "toggledConfigDropdowns": [],
   "userInterfaceComplexityLevel": 1,
@@ -44,7 +54,8 @@
   },
   "dismissedModals": [
     "Tool Use Onboarding",
-    "Quick Docs Popover"
+    "Quick Docs Popover",
+    "Logs Options Popover"
   ],
   "pre030ChatsMigrated": 3,
   "appPostUpdateNotificationPending": false,

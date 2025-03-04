@@ -1,5 +1,5 @@
 {
-  "server_version": "20.11.1",
+  "server_version": "20.12.1",
   "drivers_backup": null,
   "openvr_config": {
     "eye_resolution_width": 2144,
@@ -8,7 +8,7 @@
     "target_eye_resolution_height": 2336,
     "tracking_ref_only": false,
     "enable_vive_tracker_proxy": false,
-    "aggressive_keyframe_resend": false,
+    "minimum_idr_interval_ms": 100,
     "adapter_index": 0,
     "codec": 0,
     "h264_profile": 0,
@@ -42,12 +42,12 @@
     "foveation_center_shift_y": 0.1,
     "foveation_edge_ratio_x": 4.0,
     "foveation_edge_ratio_y": 5.0,
-    "enable_color_correction": true,
+    "enable_color_correction": false,
     "brightness": 0.0,
     "contrast": 0.0,
-    "saturation": 0.5,
-    "gamma": 1.0,
-    "sharpening": 0.5,
+    "saturation": 0.0,
+    "gamma": 0.0,
+    "sharpening": 0.0,
     "linux_async_compute": false,
     "linux_async_reprojection": false,
     "nvenc_quality_preset": 1,
@@ -87,16 +87,25 @@
     "5337.client": {
       "display_name": "Quest 2",
       "current_ip": "192.168.31.242",
-      "manual_ips": [
-        "192.168.31.242"
-      ],
+      "manual_ips": [],
       "trusted": true,
-      "connection_state": "Disconnected",
-      "cabled": false
+      "connection_state": "Disconnected"
     }
   },
   "session_settings": {
     "video": {
+      "passthrough": {
+        "enabled": false,
+        "content": {
+          "AugmentedReality": {
+            "brightness": 0.4
+          },
+          "Blend": {
+            "opacity": 0.5
+          },
+          "variant": "AugmentedReality"
+        }
+      },
       "bitrate": {
         "gui_collapsed": false,
         "mode": {
@@ -104,11 +113,11 @@
           "Adaptive": {
             "gui_collapsed": true,
             "saturation_multiplier": 0.95,
-            "max_bitrate_mbps": {
+            "max_throughput_mbps": {
               "enabled": false,
               "content": 100
             },
-            "min_bitrate_mbps": {
+            "min_throughput_mbps": {
               "enabled": false,
               "content": 5
             },
@@ -159,7 +168,7 @@
         }
       },
       "color_correction": {
-        "enabled": true,
+        "enabled": false,
         "content": {
           "brightness": 0.0,
           "contrast": 0.0,
@@ -170,7 +179,7 @@
       },
       "max_buffering_frames": 2.0,
       "buffering_history_weight": 0.9,
-      "optimize_game_render_latency": true,
+      "enforce_server_frame_pacing": true,
       "encoder_config": {
         "gui_collapsed": true,
         "rate_control_mode": {
@@ -184,9 +193,13 @@
           "variant": "Cavlc"
         },
         "use_10bit": false,
+        "server_overrides_use_10bit": false,
         "use_full_range": true,
+        "server_overrides_use_full_range": false,
         "encoding_gamma": 1.0,
+        "server_overrides_encoding_gamma": false,
         "enable_hdr": false,
+        "server_overrides_enable_hdr": false,
         "force_hdr_srgb_correction": false,
         "clamp_hdr_extended_range": false,
         "nvenc": {
@@ -240,41 +253,37 @@
         "gui_collapsed": true,
         "key": "",
         "value": {
-          "Float": 0.0,
-          "Int32": 0,
-          "Int64": 0,
-          "String": "",
-          "variant": "Int32"
+          "ty": {
+            "variant": "Int32"
+          },
+          "value": "0"
         },
         "content": [
           [
             "operating-rate",
             {
-              "Float": 0.0,
-              "Int32": 2147483647,
-              "Int64": 0,
-              "String": "",
-              "variant": "Int32"
+              "ty": {
+                "variant": "Int32"
+              },
+              "value": "2147483647"
             }
           ],
           [
             "priority",
             {
-              "Float": 0.0,
-              "Int32": 0,
-              "Int64": 0,
-              "String": "",
-              "variant": "Int32"
+              "ty": {
+                "variant": "Int32"
+              },
+              "value": "0"
             }
           ],
           [
             "vendor.qti-ext-dec-low-latency.enable",
             {
-              "Float": 0.0,
-              "Int32": 1,
-              "Int64": 0,
-              "String": "",
-              "variant": "Int32"
+              "ty": {
+                "variant": "Int32"
+              },
+              "value": "1"
             }
           ]
         ]
@@ -389,7 +398,8 @@
           "hand_skeleton": {
             "enabled": true,
             "content": {
-              "steamvr_input_2_0": true
+              "steamvr_input_2_0": true,
+              "predict": false
             }
           },
           "multimodal_tracking": false,
@@ -410,7 +420,7 @@
               "repeat_delay": 100
             }
           },
-          "steamvr_pipeline_frames": 3.0,
+          "steamvr_pipeline_frames": 2.1,
           "haptics": {
             "enabled": true,
             "content": {
@@ -434,233 +444,10 @@
           "extra_openvr_props": {
             "gui_collapsed": true,
             "element": {
-              "TrackingSystemName": "",
-              "ModelNumber": "",
-              "SerialNumber": "",
-              "RenderModelName": "",
-              "WillDriftInYaw": false,
-              "ManufacturerName": "",
-              "TrackingFirmwareVersion": "",
-              "HardwareRevisionString": "",
-              "AllWirelessDongleDescriptions": "",
-              "ConnectedWirelessDongle": "",
-              "DeviceIsWireless": false,
-              "DeviceIsCharging": false,
-              "DeviceBatteryPercentage": 0.0,
-              "FirmwareUpdateAvailable": false,
-              "FirmwareManualUpdate": false,
-              "FirmwareManualUpdateURL": "",
-              "HardwareRevisionUint64": 0,
-              "FirmwareVersion": 0,
-              "FPGAVersion": 0,
-              "VRCVersion": 0,
-              "RadioVersion": 0,
-              "DongleVersion": 0,
-              "BlockServerShutdown": false,
-              "CanUnifyCoordinateSystemWithHmd": false,
-              "ContainsProximitySensor": false,
-              "DeviceProvidesBatteryStatus": false,
-              "DeviceCanPowerOff": false,
-              "FirmwareProgrammingTarget": "",
-              "DeviceClass": 0,
-              "HasCamera": false,
-              "DriverVersion": "",
-              "FirmwareForceUpdateRequired": false,
-              "ViveSystemButtonFixRequired": false,
-              "ParentDriver": 0,
-              "ResourceRoot": "",
-              "RegisteredDeviceType": "",
-              "InputProfilePath": "",
-              "NeverTracked": false,
-              "NumCameras": 0,
-              "CameraFrameLayout": 0,
-              "CameraStreamFormat": 0,
-              "AdditionalDeviceSettingsPath": "",
-              "Identifiable": false,
-              "BootloaderVersion": 0,
-              "AdditionalSystemReportData": "",
-              "CompositeFirmwareVersion": "",
-              "FirmwareRemindUpdate": false,
-              "PeripheralApplicationVersion": 0,
-              "ManufacturerSerialNumber": "",
-              "ComputedSerialNumber": "",
-              "EstimatedDeviceFirstUseTime": 0,
-              "ReportsTimeSinceVSync": false,
-              "SecondsFromVsyncToPhotons": 0.0,
-              "DisplayFrequency": 0.0,
-              "UserIpdMeters": 0.0,
-              "CurrentUniverseId": 0,
-              "PreviousUniverseId": 0,
-              "DisplayFirmwareVersion": 0,
-              "IsOnDesktop": false,
-              "DisplayMCType": 0,
-              "DisplayMCOffset": 0.0,
-              "DisplayMCScale": 0.0,
-              "EdidVendorID": 0,
-              "DisplayMCImageLeft": "",
-              "DisplayMCImageRight": "",
-              "DisplayGCBlackClamp": 0.0,
-              "EdidProductID": 0,
-              "DisplayGCType": 0,
-              "DisplayGCOffset": 0.0,
-              "DisplayGCScale": 0.0,
-              "DisplayGCPrescale": 0.0,
-              "DisplayGCImage": "",
-              "LensCenterLeftU": 0.0,
-              "LensCenterLeftV": 0.0,
-              "LensCenterRightU": 0.0,
-              "LensCenterRightV": 0.0,
-              "UserHeadToEyeDepthMeters": 0.0,
-              "CameraFirmwareVersion": 0,
-              "CameraFirmwareDescription": "",
-              "DisplayFPGAVersion": 0,
-              "DisplayBootloaderVersion": 0,
-              "DisplayHardwareVersion": 0,
-              "AudioFirmwareVersion": 0,
-              "CameraCompatibilityMode": 0,
-              "ScreenshotHorizontalFieldOfViewDegrees": 0.0,
-              "ScreenshotVerticalFieldOfViewDegrees": 0.0,
-              "DisplaySuppressed": false,
-              "DisplayAllowNightMode": false,
-              "DisplayMCImageWidth": 0,
-              "DisplayMCImageHeight": 0,
-              "DisplayMCImageNumChannels": 0,
-              "SecondsFromPhotonsToVblank": 0.0,
-              "DriverDirectModeSendsVsyncEvents": false,
-              "DisplayDebugMode": false,
-              "GraphicsAdapterLuid": 0,
-              "DriverProvidedChaperonePath": "",
-              "ExpectedTrackingReferenceCount": 0,
-              "ExpectedControllerCount": 0,
-              "NamedIconPathControllerLeftDeviceOff": "",
-              "NamedIconPathControllerRightDeviceOff": "",
-              "NamedIconPathTrackingReferenceDeviceOff": "",
-              "DoNotApplyPrediction": false,
-              "DistortionMeshResolution": 0,
-              "DriverIsDrawingControllers": false,
-              "DriverRequestsApplicationPause": false,
-              "DriverRequestsReducedRendering": false,
-              "MinimumIpdStepMeters": 0.0,
-              "AudioBridgeFirmwareVersion": 0,
-              "ImageBridgeFirmwareVersion": 0,
-              "ImuFactoryGyroBias": {
-                "gui_collapsed": false,
-                "content": [
-                  0.0,
-                  0.0,
-                  0.0
-                ]
+              "key": {
+                "variant": "TrackingSystemNameString"
               },
-              "ImuFactoryGyroScale": {
-                "gui_collapsed": false,
-                "content": [
-                  0.0,
-                  0.0,
-                  0.0
-                ]
-              },
-              "ImuFactoryAccelerometerBias": {
-                "gui_collapsed": false,
-                "content": [
-                  0.0,
-                  0.0,
-                  0.0
-                ]
-              },
-              "ImuFactoryAccelerometerScale": {
-                "gui_collapsed": false,
-                "content": [
-                  0.0,
-                  0.0,
-                  0.0
-                ]
-              },
-              "ConfigurationIncludesLighthouse20Features": false,
-              "AdditionalRadioFeatures": 0,
-              "ExpectedControllerType": "",
-              "HmdTrackingStyle": 0,
-              "DriverProvidedChaperoneVisibility": false,
-              "HmdColumnCorrectionSettingPrefix": "",
-              "CameraSupportsCompatibilityModes": false,
-              "SupportsRoomViewDepthProjection": false,
-              "DisplaySupportsMultipleFramerates": false,
-              "DisplayColorMultLeft": {
-                "gui_collapsed": false,
-                "content": [
-                  0.0,
-                  0.0,
-                  0.0
-                ]
-              },
-              "DisplayColorMultRight": {
-                "gui_collapsed": false,
-                "content": [
-                  0.0,
-                  0.0,
-                  0.0
-                ]
-              },
-              "DisplaySupportsRuntimeFramerateChange": false,
-              "DisplaySupportsAnalogGain": false,
-              "DisplayMinAnalogGain": 0.0,
-              "DisplayMaxAnalogGain": 0.0,
-              "DashboardScale": 0.0,
-              "IpdUIRangeMinMeters": 0.0,
-              "IpdUIRangeMaxMeters": 0.0,
-              "HmdSupportsHDCP14LegacyCompat": false,
-              "HmdSupportsMicMonitoring": false,
-              "DriverRequestedMuraCorrectionMode": 0,
-              "DriverRequestedMuraFeatherInnerLeft": 0,
-              "DriverRequestedMuraFeatherInnerRight": 0,
-              "DriverRequestedMuraFeatherInnerTop": 0,
-              "DriverRequestedMuraFeatherInnerBottom": 0,
-              "DriverRequestedMuraFeatherOuterLeft": 0,
-              "DriverRequestedMuraFeatherOuterRight": 0,
-              "DriverRequestedMuraFeatherOuterTop": 0,
-              "DriverRequestedMuraFeatherOuterBottom": 0,
-              "AudioDefaultPlaybackDeviceId": "",
-              "AudioDefaultRecordingDeviceId": "",
-              "AudioDefaultPlaybackDeviceVolume": 0.0,
-              "AudioSupportsDualSpeakerAndJackOutput": false,
-              "AttachedDeviceId": "",
-              "SupportedButtons": 0,
-              "Axis0Type": 0,
-              "Axis1Type": 0,
-              "Axis2Type": 0,
-              "Axis3Type": 0,
-              "Axis4Type": 0,
-              "ControllerRoleHint": 0,
-              "FieldOfViewLeftDegrees": 0.0,
-              "FieldOfViewRightDegrees": 0.0,
-              "FieldOfViewTopDegrees": 0.0,
-              "FieldOfViewBottomDegrees": 0.0,
-              "TrackingRangeMinimumMeters": 0.0,
-              "TrackingRangeMaximumMeters": 0.0,
-              "ModeLabel": "",
-              "CanWirelessIdentify": false,
-              "Nonce": 0,
-              "IconPathName": "",
-              "NamedIconPathDeviceOff": "",
-              "NamedIconPathDeviceSearching": "",
-              "NamedIconPathDeviceSearchingAlert": "",
-              "NamedIconPathDeviceReady": "",
-              "NamedIconPathDeviceReadyAlert": "",
-              "NamedIconPathDeviceNotReady": "",
-              "NamedIconPathDeviceStandby": "",
-              "NamedIconPathDeviceAlertLow": "",
-              "NamedIconPathDeviceStandbyAlert": "",
-              "OverrideContainer": 0,
-              "UserConfigPath": "",
-              "InstallPath": "",
-              "HasDisplayComponent": false,
-              "HasControllerComponent": false,
-              "HasCameraComponent": false,
-              "HasDriverDirectModeComponent": false,
-              "HasVirtualDisplayComponent": false,
-              "HasSpatialAnchorsSupport": false,
-              "ControllerType": "",
-              "ControllerHandSelectionPriority": 0,
-              "variant": "TrackingSystemName"
+              "value": ""
             },
             "content": []
           },
@@ -756,233 +543,10 @@
       "extra_openvr_props": {
         "gui_collapsed": true,
         "element": {
-          "TrackingSystemName": "",
-          "ModelNumber": "",
-          "SerialNumber": "",
-          "RenderModelName": "",
-          "WillDriftInYaw": false,
-          "ManufacturerName": "",
-          "TrackingFirmwareVersion": "",
-          "HardwareRevisionString": "",
-          "AllWirelessDongleDescriptions": "",
-          "ConnectedWirelessDongle": "",
-          "DeviceIsWireless": false,
-          "DeviceIsCharging": false,
-          "DeviceBatteryPercentage": 0.0,
-          "FirmwareUpdateAvailable": false,
-          "FirmwareManualUpdate": false,
-          "FirmwareManualUpdateURL": "",
-          "HardwareRevisionUint64": 0,
-          "FirmwareVersion": 0,
-          "FPGAVersion": 0,
-          "VRCVersion": 0,
-          "RadioVersion": 0,
-          "DongleVersion": 0,
-          "BlockServerShutdown": false,
-          "CanUnifyCoordinateSystemWithHmd": false,
-          "ContainsProximitySensor": false,
-          "DeviceProvidesBatteryStatus": false,
-          "DeviceCanPowerOff": false,
-          "FirmwareProgrammingTarget": "",
-          "DeviceClass": 0,
-          "HasCamera": false,
-          "DriverVersion": "",
-          "FirmwareForceUpdateRequired": false,
-          "ViveSystemButtonFixRequired": false,
-          "ParentDriver": 0,
-          "ResourceRoot": "",
-          "RegisteredDeviceType": "",
-          "InputProfilePath": "",
-          "NeverTracked": false,
-          "NumCameras": 0,
-          "CameraFrameLayout": 0,
-          "CameraStreamFormat": 0,
-          "AdditionalDeviceSettingsPath": "",
-          "Identifiable": false,
-          "BootloaderVersion": 0,
-          "AdditionalSystemReportData": "",
-          "CompositeFirmwareVersion": "",
-          "FirmwareRemindUpdate": false,
-          "PeripheralApplicationVersion": 0,
-          "ManufacturerSerialNumber": "",
-          "ComputedSerialNumber": "",
-          "EstimatedDeviceFirstUseTime": 0,
-          "ReportsTimeSinceVSync": false,
-          "SecondsFromVsyncToPhotons": 0.0,
-          "DisplayFrequency": 0.0,
-          "UserIpdMeters": 0.0,
-          "CurrentUniverseId": 0,
-          "PreviousUniverseId": 0,
-          "DisplayFirmwareVersion": 0,
-          "IsOnDesktop": false,
-          "DisplayMCType": 0,
-          "DisplayMCOffset": 0.0,
-          "DisplayMCScale": 0.0,
-          "EdidVendorID": 0,
-          "DisplayMCImageLeft": "",
-          "DisplayMCImageRight": "",
-          "DisplayGCBlackClamp": 0.0,
-          "EdidProductID": 0,
-          "DisplayGCType": 0,
-          "DisplayGCOffset": 0.0,
-          "DisplayGCScale": 0.0,
-          "DisplayGCPrescale": 0.0,
-          "DisplayGCImage": "",
-          "LensCenterLeftU": 0.0,
-          "LensCenterLeftV": 0.0,
-          "LensCenterRightU": 0.0,
-          "LensCenterRightV": 0.0,
-          "UserHeadToEyeDepthMeters": 0.0,
-          "CameraFirmwareVersion": 0,
-          "CameraFirmwareDescription": "",
-          "DisplayFPGAVersion": 0,
-          "DisplayBootloaderVersion": 0,
-          "DisplayHardwareVersion": 0,
-          "AudioFirmwareVersion": 0,
-          "CameraCompatibilityMode": 0,
-          "ScreenshotHorizontalFieldOfViewDegrees": 0.0,
-          "ScreenshotVerticalFieldOfViewDegrees": 0.0,
-          "DisplaySuppressed": false,
-          "DisplayAllowNightMode": false,
-          "DisplayMCImageWidth": 0,
-          "DisplayMCImageHeight": 0,
-          "DisplayMCImageNumChannels": 0,
-          "SecondsFromPhotonsToVblank": 0.0,
-          "DriverDirectModeSendsVsyncEvents": false,
-          "DisplayDebugMode": false,
-          "GraphicsAdapterLuid": 0,
-          "DriverProvidedChaperonePath": "",
-          "ExpectedTrackingReferenceCount": 0,
-          "ExpectedControllerCount": 0,
-          "NamedIconPathControllerLeftDeviceOff": "",
-          "NamedIconPathControllerRightDeviceOff": "",
-          "NamedIconPathTrackingReferenceDeviceOff": "",
-          "DoNotApplyPrediction": false,
-          "DistortionMeshResolution": 0,
-          "DriverIsDrawingControllers": false,
-          "DriverRequestsApplicationPause": false,
-          "DriverRequestsReducedRendering": false,
-          "MinimumIpdStepMeters": 0.0,
-          "AudioBridgeFirmwareVersion": 0,
-          "ImageBridgeFirmwareVersion": 0,
-          "ImuFactoryGyroBias": {
-            "gui_collapsed": false,
-            "content": [
-              0.0,
-              0.0,
-              0.0
-            ]
+          "key": {
+            "variant": "TrackingSystemNameString"
           },
-          "ImuFactoryGyroScale": {
-            "gui_collapsed": false,
-            "content": [
-              0.0,
-              0.0,
-              0.0
-            ]
-          },
-          "ImuFactoryAccelerometerBias": {
-            "gui_collapsed": false,
-            "content": [
-              0.0,
-              0.0,
-              0.0
-            ]
-          },
-          "ImuFactoryAccelerometerScale": {
-            "gui_collapsed": false,
-            "content": [
-              0.0,
-              0.0,
-              0.0
-            ]
-          },
-          "ConfigurationIncludesLighthouse20Features": false,
-          "AdditionalRadioFeatures": 0,
-          "ExpectedControllerType": "",
-          "HmdTrackingStyle": 0,
-          "DriverProvidedChaperoneVisibility": false,
-          "HmdColumnCorrectionSettingPrefix": "",
-          "CameraSupportsCompatibilityModes": false,
-          "SupportsRoomViewDepthProjection": false,
-          "DisplaySupportsMultipleFramerates": false,
-          "DisplayColorMultLeft": {
-            "gui_collapsed": false,
-            "content": [
-              0.0,
-              0.0,
-              0.0
-            ]
-          },
-          "DisplayColorMultRight": {
-            "gui_collapsed": false,
-            "content": [
-              0.0,
-              0.0,
-              0.0
-            ]
-          },
-          "DisplaySupportsRuntimeFramerateChange": false,
-          "DisplaySupportsAnalogGain": false,
-          "DisplayMinAnalogGain": 0.0,
-          "DisplayMaxAnalogGain": 0.0,
-          "DashboardScale": 0.0,
-          "IpdUIRangeMinMeters": 0.0,
-          "IpdUIRangeMaxMeters": 0.0,
-          "HmdSupportsHDCP14LegacyCompat": false,
-          "HmdSupportsMicMonitoring": false,
-          "DriverRequestedMuraCorrectionMode": 0,
-          "DriverRequestedMuraFeatherInnerLeft": 0,
-          "DriverRequestedMuraFeatherInnerRight": 0,
-          "DriverRequestedMuraFeatherInnerTop": 0,
-          "DriverRequestedMuraFeatherInnerBottom": 0,
-          "DriverRequestedMuraFeatherOuterLeft": 0,
-          "DriverRequestedMuraFeatherOuterRight": 0,
-          "DriverRequestedMuraFeatherOuterTop": 0,
-          "DriverRequestedMuraFeatherOuterBottom": 0,
-          "AudioDefaultPlaybackDeviceId": "",
-          "AudioDefaultRecordingDeviceId": "",
-          "AudioDefaultPlaybackDeviceVolume": 0.0,
-          "AudioSupportsDualSpeakerAndJackOutput": false,
-          "AttachedDeviceId": "",
-          "SupportedButtons": 0,
-          "Axis0Type": 0,
-          "Axis1Type": 0,
-          "Axis2Type": 0,
-          "Axis3Type": 0,
-          "Axis4Type": 0,
-          "ControllerRoleHint": 0,
-          "FieldOfViewLeftDegrees": 0.0,
-          "FieldOfViewRightDegrees": 0.0,
-          "FieldOfViewTopDegrees": 0.0,
-          "FieldOfViewBottomDegrees": 0.0,
-          "TrackingRangeMinimumMeters": 0.0,
-          "TrackingRangeMaximumMeters": 0.0,
-          "ModeLabel": "",
-          "CanWirelessIdentify": false,
-          "Nonce": 0,
-          "IconPathName": "",
-          "NamedIconPathDeviceOff": "",
-          "NamedIconPathDeviceSearching": "",
-          "NamedIconPathDeviceSearchingAlert": "",
-          "NamedIconPathDeviceReady": "",
-          "NamedIconPathDeviceReadyAlert": "",
-          "NamedIconPathDeviceNotReady": "",
-          "NamedIconPathDeviceStandby": "",
-          "NamedIconPathDeviceAlertLow": "",
-          "NamedIconPathDeviceStandbyAlert": "",
-          "OverrideContainer": 0,
-          "UserConfigPath": "",
-          "InstallPath": "",
-          "HasDisplayComponent": false,
-          "HasControllerComponent": false,
-          "HasCameraComponent": false,
-          "HasDriverDirectModeComponent": false,
-          "HasVirtualDisplayComponent": false,
-          "HasSpatialAnchorsSupport": false,
-          "ControllerType": "",
-          "ControllerHandSelectionPriority": 0,
-          "variant": "TrackingSystemName"
+          "value": ""
         },
         "content": []
       },
@@ -993,7 +557,6 @@
         "content": {
           "gui_collapsed": true,
           "sources": {
-            "combined_eye_gaze": true,
             "eye_tracking_fb": true,
             "face_tracking_fb": true,
             "eye_expressions_htc": true,
@@ -1027,7 +590,18 @@
           },
           "tracked": true
         }
-      }
+      },
+      "vmc": {
+        "enabled": false,
+        "content": {
+          "gui_collapsed": true,
+          "host": "127.0.0.1",
+          "port": 39539,
+          "publish": true,
+          "orientation_correction": true
+        }
+      },
+      "max_prediction_ms": 100
     },
     "connection": {
       "stream_protocol": {
@@ -1039,8 +613,14 @@
           "auto_trust_clients": false
         }
       },
-      "on_connect_script": "",
-      "on_disconnect_script": "",
+      "wired_client_type": {
+        "Custom": "alvr.client",
+        "variant": "Store"
+      },
+      "wired_client_autolaunch": true,
+      "enable_on_connect_script": false,
+      "enable_on_disconnect_script": false,
+      "allow_untrusted_http": false,
       "avoid_video_glitching": false,
       "packet_size": 1400,
       "stream_port": 9944,
@@ -1064,7 +644,7 @@
       },
       "max_queued_server_video_frames": 1024,
       "statistics_history_size": 256,
-      "aggressive_keyframe_resend": false,
+      "minimum_idr_interval_ms": 100,
       "dscp": {
         "set": false,
         "content": {
@@ -1135,6 +715,7 @@
         "linux_async_compute": false,
         "linux_async_reprojection": false
       },
+      "velocities_multiplier": 1.0,
       "open_setup_wizard": false
     }
   }

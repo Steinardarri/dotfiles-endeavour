@@ -16,7 +16,7 @@ commit = "2edf468aeb7d4703aa211cea3b58f04cbc73298c"
 
 [[gamescope-plus]]
 url = "https://github.com/KhronosGroup/SPIRV-Headers.git"
-commit = "09913f088a1197aba4aefd300a876b2ebbaa3391"
+commit = "54a521dd130ae1b2f38fef79b09515702d135bdd"
 
 [[gamescope-plus]]
 url = "https://github.com/ValveSoftware/openvr.git"
@@ -40,7 +40,7 @@ commit = "9a51e13802d930feb7261ba8876940659b258cb7"
 
 [[universal-pidff-dkms-git]]
 url = "https://github.com/JacKeTUs/universal-pidff"
-commit = "b1785f9ab4b7f43b8e886734b346b994933a3f72"
+commit = "3e0e1e7ef9bb383cc47405acd0af5d94c44637b9"
 
 [[zrythm-git]]
 url = "https://gitlab.zrythm.org/zrythm/zrythm/"

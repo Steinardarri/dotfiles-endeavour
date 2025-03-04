@@ -13,5 +13,4 @@ ShowSidebar=true
 
 [MainWindow]
 StatusBar=Disabled
-ToolBarsMovable=Disabled
 splitterSizes=1001,137

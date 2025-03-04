@@ -1,3 +1,9 @@
+[file:///home/steinardth/.wine/drive_c/users/steinardth/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/CrewChiefV4ACC.lnk]
+Checksum=9e4ab1068f725a32504af1dfdb6f5e020d04ab06
+Encoding=ISO-8859-15
+Time=2025,2,23,23,59,47.661
+URL=file:///home/steinardth/.wine/drive_c/users/steinardth/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/CrewChiefV4ACC.lnk
+
 [file:///run/media/steinardth/Hardur_Diskur/.torrent/Bitwig Studio v5.0.4/Linux/FLARE/FLARE.nfo]
 Checksum=a210fe0d5e3c67a546af08e6f01763e5f9136bbf
 Encoding=ISO-8859-15
@@ -27,3 +33,9 @@ Checksum=782e597d385289dc5fe11f652fceb302af79dd1c
 Encoding=ISO-8859-15
 Time=2025,1,17,18,49,33.812
 URL=file:///run/media/steinardth/SteinarFlak/_Mitt/Tonlistarskopun/Projects/þessi_tilvera_er_undarleg/þessi_tilvera_er_undarleg.bwproject
+
+[file:///tmp/dumps/crash_20250222174610_136.dmp]
+Checksum=54fcb59ab305e7ad97aa96ae73647fc01c8f8a52
+Encoding=ISO-8859-15
+Time=2025,2,22,17,46,53.548
+URL=file:///tmp/dumps/crash_20250222174610_136.dmp

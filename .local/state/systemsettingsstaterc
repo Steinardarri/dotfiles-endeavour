@@ -5,11 +5,13 @@ Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/Pictures/Avatar/,file:$HOME/Forr
 [MainWindow]
 2 screens: Height=708
 2 screens: Width=1193
+2560x1440 screen: Height=708
+2560x1440 screen: Width=1193
 3 screens: Height=850
 3 screens: Width=1612
 4 screens: Height=850
 4 screens: Width=1612
-State=AAAA/wAAAAD9AAAAAAAAA6IAAAKKAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAABKkAAALEAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [Open-with settings]
 CompletionMode=1

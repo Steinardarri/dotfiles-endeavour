@@ -278,10 +278,16 @@ alias lsblks="lsblk -o name,mountpoint,label,partlabel,size,fstype,uuid"
 alias weather="curl -s 'wttr.in/Reykjavik?MQ' | rg -v 'Follow'"
 alias rgb="openrgb -p Orange"
 
+proton() {
+  latest_version=$(ls -1 ~/.steam/steam/compatibilitytools.d/ | grep GE-Proton | sort | tail -n 1)
+  proton_path=~/.steam/steam/compatibilitytools.d/$latest_version/proton
+  "$proton_path"
+}
+
 ### Launch
 
 catnap
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
-eval $(thefuck --alias)
+eval "$(thefuck --alias)"

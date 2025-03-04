@@ -1,11 +1,7 @@
 [Document 0]
-URL=file:///home/steinardth/.config/starship.toml
-
-[MainWindow0]
-ToolBarsMovable=Disabled
+URL=file:///usr/share/applications/io.github.antimicrox.antimicrox.desktop
 
 [MainWindow0 Settings]
-ToolBarsMovable=Disabled
 WindowState=10
 
 [Open Documents]
@@ -15,23 +11,23 @@ Count=1
 Count=1
 
 [Recent Files]
-File1[$e]=$HOME/.local/bin/url2app.sh
-File10[$e]=$HOME/.config/starship.toml
-File2[$e]=$HOME/.local/share/applications/userapp-Firefox-0HFU12.desktop
-File3[$e]=$HOME/.local/share/applications/userapp-Floorp-NPMLR2.desktop
-File4[$e]=$HOME/.local/share/applications/PitSync.desktop
-File5[$e]=$HOME/.config/mimeapps.list
-File6[$e]=$HOME/.local/share/applications/TrackTitan.desktop
-File7[$e]=$HOME/.config/spicetify/config-xpui.ini
-File8[$e]=/var/lib/dkms/xone-v0.3-90/gf314bce/build/make.log
-File9[$e]=$HOME/Forrit/Script/ACC.sh
-Name1[$e]=url2app.sh
-Name10[$e]=starship.toml
-Name2[$e]=userapp-Firefox-0HFU12.desktop
-Name3[$e]=userapp-Floorp-NPMLR2.desktop
-Name4[$e]=PitSync.desktop
-Name5[$e]=mimeapps.list
-Name6[$e]=TrackTitan.desktop
-Name7[$e]=config-xpui.ini
-Name8[$e]=make.log
-Name9[$e]=ACC.sh
+File1[$e]=$HOME/.local/share/applications/CrewChiefV4AMS2.desktop
+File10[$e]=/usr/share/applications/io.github.antimicrox.antimicrox.desktop
+File2[$e]=$HOME/.wine/drive_c/users/steinardth/Documents/CrewChiefV4/Profiles/ACC.json
+File3[$e]=$HOME/.wine/drive_c/users/steinardth/Documents/CrewChiefV4/Profiles/AMS2.json
+File4[$e]=/run/media/steinardth/SSD_Kingston/SteamLibrary/steamapps/compatdata/232090/pfx/drive_c/users/steamuser/Documents/My Games/KillingFloor2/KFGame/Config/KFAI.ini
+File5[$e]=/run/media/steinardth/SSD_Kingston/SteamLibrary/steamapps/compatdata/232090/pfx/drive_c/users/steamuser/Documents/My Games/KillingFloor2/KFGame/Config/KFSystemSettings.ini
+File6[$e]=/etc/environment
+File7[$e]=/run/media/steinardth/SSD_Kingston/SteamLibrary/steamapps/compatdata/232090/pfx/drive_c/users/steamuser/Documents/My Games/KillingFloor2/KFGame/Config/KFInput.ini
+File8[$e]=/run/media/steinardth/SSD_Kingston/SteamLibrary/steamapps/compatdata/232090/pfx/drive_c/users/steamuser/Documents/My Games/KillingFloor2/KFGame/Config/KFGame.ini
+File9[$e]=/run/media/steinardth/SSD_M2/SteamLibrary/steamapps/compatdata/1066890/pfx/drive_c/users/steamuser/Documents/Automobilista 2/ffb_custom_settings.txt
+Name1[$e]=CrewChiefV4AMS2.desktop
+Name10[$e]=io.github.antimicrox.antimicrox.desktop
+Name2[$e]=ACC.json
+Name3[$e]=AMS2.json
+Name4[$e]=KFAI.ini
+Name5[$e]=KFSystemSettings.ini
+Name6[$e]=environment
+Name7[$e]=KFInput.ini
+Name8[$e]=KFGame.ini
+Name9[$e]=ffb_custom_settings.txt
