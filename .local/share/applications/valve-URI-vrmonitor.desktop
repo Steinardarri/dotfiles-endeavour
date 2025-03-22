@@ -1,15 +1,9 @@
 [Desktop Entry]
-Categories=Game;
-Comment=URI handler for vrmonitor://
-Exec=/home/steinardth/dotfiles/.local/share/Steam/steamapps/common/SteamVR/bin/linux64/../vrmonitor.sh %U
-Icon=steamvr
-MimeType=x-scheme-handler/vrmonitor
 Name=URI-vrmonitor
-NoDisplay=false
-Path=
-StartupNotify=true
+Comment=URI handler for vrmonitor://
+Exec="/home/steinardth/dotfiles/.local/share/Steam/steamapps/common/SteamVR/bin/linux64/../vrmonitor.sh" %U
 Terminal=false
-TerminalOptions=
 Type=Application
-X-KDE-SubstituteUID=false
-X-KDE-Username=
+Categories=Game;
+MimeType=x-scheme-handler/vrmonitor
+	

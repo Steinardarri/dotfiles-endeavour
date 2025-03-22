@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=gamemoderun protontricks-launch --appid 429530 '/home/steinardth/Games/Falcon BMS 4.37/Bin/x64/Falcon BMS.exe' -vr
+Icon=/run/media/steinardth/SteinarFlak/Backup/2024_05/SSD/Leikir/Falcon BMS 4.37/Docs/99 Web/web.ico
+Name=Falcon BMS
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

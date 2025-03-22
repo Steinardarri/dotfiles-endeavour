@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=opentrack -platform xcb
+Icon=/home/steinardth/Forrit/git_verkefni/opentrack/opentrack/opentrack.ico
+Name=OpenTrack
+NoDisplay=false
+Path=/home/steinardth/.local/bin
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
