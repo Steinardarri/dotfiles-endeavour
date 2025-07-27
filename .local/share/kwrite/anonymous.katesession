@@ -1,5 +1,5 @@
 [Document 0]
-URL=file:///usr/share/applications/io.github.antimicrox.antimicrox.desktop
+URL=file:///home/steinardth/dotfiles/.gitignore
 
 [MainWindow0 Settings]
 WindowState=10
@@ -11,23 +11,23 @@ Count=1
 Count=1
 
 [Recent Files]
-File1[$e]=$HOME/.local/share/applications/CrewChiefV4AMS2.desktop
-File10[$e]=/usr/share/applications/io.github.antimicrox.antimicrox.desktop
-File2[$e]=$HOME/.wine/drive_c/users/steinardth/Documents/CrewChiefV4/Profiles/ACC.json
-File3[$e]=$HOME/.wine/drive_c/users/steinardth/Documents/CrewChiefV4/Profiles/AMS2.json
-File4[$e]=/run/media/steinardth/SSD_Kingston/SteamLibrary/steamapps/compatdata/232090/pfx/drive_c/users/steamuser/Documents/My Games/KillingFloor2/KFGame/Config/KFAI.ini
-File5[$e]=/run/media/steinardth/SSD_Kingston/SteamLibrary/steamapps/compatdata/232090/pfx/drive_c/users/steamuser/Documents/My Games/KillingFloor2/KFGame/Config/KFSystemSettings.ini
-File6[$e]=/etc/environment
-File7[$e]=/run/media/steinardth/SSD_Kingston/SteamLibrary/steamapps/compatdata/232090/pfx/drive_c/users/steamuser/Documents/My Games/KillingFloor2/KFGame/Config/KFInput.ini
-File8[$e]=/run/media/steinardth/SSD_Kingston/SteamLibrary/steamapps/compatdata/232090/pfx/drive_c/users/steamuser/Documents/My Games/KillingFloor2/KFGame/Config/KFGame.ini
-File9[$e]=/run/media/steinardth/SSD_M2/SteamLibrary/steamapps/compatdata/1066890/pfx/drive_c/users/steamuser/Documents/Automobilista 2/ffb_custom_settings.txt
-Name1[$e]=CrewChiefV4AMS2.desktop
-Name10[$e]=io.github.antimicrox.antimicrox.desktop
-Name2[$e]=ACC.json
-Name3[$e]=AMS2.json
-Name4[$e]=KFAI.ini
-Name5[$e]=KFSystemSettings.ini
-Name6[$e]=environment
-Name7[$e]=KFInput.ini
-Name8[$e]=KFGame.ini
-Name9[$e]=ffb_custom_settings.txt
+File1[$e]=$HOME/.wine/drive_c/users/steinardth/Documents/CrewChiefV4/Profiles/ACC.json
+File10[$e]=$HOME/dotfiles/.gitignore
+File2[$e]=$HOME/.wine/drive_c/users/steinardth/Documents/CrewChiefV4/Profiles/AMS2.json
+File3[$e]=/run/media/steinardth/SSD_Kingston/SteamLibrary/steamapps/compatdata/232090/pfx/drive_c/users/steamuser/Documents/My Games/KillingFloor2/KFGame/Config/KFAI.ini
+File4[$e]=/run/media/steinardth/SSD_Kingston/SteamLibrary/steamapps/compatdata/232090/pfx/drive_c/users/steamuser/Documents/My Games/KillingFloor2/KFGame/Config/KFSystemSettings.ini
+File5[$e]=/etc/environment
+File6[$e]=/run/media/steinardth/SSD_Kingston/SteamLibrary/steamapps/compatdata/232090/pfx/drive_c/users/steamuser/Documents/My Games/KillingFloor2/KFGame/Config/KFInput.ini
+File7[$e]=/run/media/steinardth/SSD_Kingston/SteamLibrary/steamapps/compatdata/232090/pfx/drive_c/users/steamuser/Documents/My Games/KillingFloor2/KFGame/Config/KFGame.ini
+File8[$e]=/run/media/steinardth/SSD_M2/SteamLibrary/steamapps/compatdata/1066890/pfx/drive_c/users/steamuser/Documents/Automobilista 2/ffb_custom_settings.txt
+File9[$e]=/usr/share/applications/io.github.antimicrox.antimicrox.desktop
+Name1[$e]=ACC.json
+Name10[$e]=.gitignore
+Name2[$e]=AMS2.json
+Name3[$e]=KFAI.ini
+Name4[$e]=KFSystemSettings.ini
+Name5[$e]=environment
+Name6[$e]=KFInput.ini
+Name7[$e]=KFGame.ini
+Name8[$e]=ffb_custom_settings.txt
+Name9[$e]=io.github.antimicrox.antimicrox.desktop

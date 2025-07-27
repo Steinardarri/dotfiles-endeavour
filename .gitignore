@@ -64,4 +64,7 @@ ark/
 .local/share/net.lutris.Lutris/
 .local/share/lf/
 .local/share/okular/
+.local/share/flatpak/
 .config/session/
+.config/JetBrains/
+.local/share/JetBrains/
